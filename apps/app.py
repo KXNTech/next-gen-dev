@@ -2,6 +2,7 @@ from config.next_gen_lead_config import *
 from models.product_equiry_model import  *
 from models.dealer_model import *
 
+# Just comment line added
 @app.route('/fetch-todays-leads', methods=['GET'])
 def fetchTodaysLeads():
     """Returns the leads info for current date.."""
